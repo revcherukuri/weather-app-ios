@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         var timeDisplay = ""
         if (hour > 12) {
             
-            timeDisplay = String(format:"%d:%02d", hour-12, minute)
+            timeDisplay = String(format:"%d:%02d", hour-12+1, minute)
         }
         else {
             timeDisplay = String(format:"%d:%02d", hour, minute)

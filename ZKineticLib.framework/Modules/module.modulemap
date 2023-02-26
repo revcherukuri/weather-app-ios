@@ -1,0 +1,11 @@
+framework module ZKineticLib {
+  umbrella header "ZKineticLib.h"
+
+  export *
+  module * { export * }
+}
+
+module ZKineticLib.Swift {
+    header "ZKineticLib-Swift.h"
+    requires objc
+}

@@ -1,0 +1,6 @@
+framework module KineticEngineSwift {
+  umbrella header "KineticEngineSwift.h"
+
+  export *
+  module * { export * }
+}

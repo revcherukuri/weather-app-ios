@@ -1,0 +1,11 @@
+framework module ZFido2Authenticator {
+  umbrella header "ZFido2Authenticator.h"
+
+  export *
+  module * { export * }
+}
+
+module ZFido2Authenticator.Swift {
+    header "ZFido2Authenticator-Swift.h"
+    requires objc
+}
